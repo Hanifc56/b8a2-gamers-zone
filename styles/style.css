@@ -20,7 +20,8 @@ body {
 .header {
     max-width: 1920px;
     height: 130px;
-    margin: 0 240px;
+    margin: 48px 240px;
+
 }
 
 /* nav styles */
@@ -29,6 +30,10 @@ body {
     height: 80px;
     justify-content: space-between;
     align-items: center;
+}
+
+.spcial-title {
+    color: #FF42A5;
 }
 
 .nav-title {
@@ -72,4 +77,69 @@ body {
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+}
+
+.fa-youtube {
+    color: #F61C0D;
+    ;
+}
+
+.fa-tiktok {
+    color: #000000;
+}
+
+
+/* flexible for mobile device */
+@media screen and (max-width: 576px) {
+    .header {
+        margin: 20px;
+    }
+
+    .navigation,
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-item li {
+        padding-bottom: 20px;
+    }
+
+    .nav-bar {
+        padding: 10px;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+
+    .common-nav {
+        padding-top: 18px;
+    }
+}
+
+/* flexible for tablet device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header {
+        margin: 20px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .nav-item li {
+        padding-bottom: 20px;
+    }
+
+    .nav-bar {
+        padding: 10px;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+
+    .common-nav {
+        padding-top: 17px;
+    }
 }
