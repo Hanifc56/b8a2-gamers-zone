@@ -1,4 +1,4 @@
-/* Work sans font added */
+4716/* Work sans font added */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -643,4 +643,37 @@
         flex: 25%;
         max-width: 25%
     }
+    footer {
+        margin: 0;
+        height: 400px;
+    }
+
+    .footer-title {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .nav-2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .footer-nav-bar {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .social-nav {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
 }
