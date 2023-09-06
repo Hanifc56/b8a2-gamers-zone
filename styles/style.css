@@ -6,8 +6,9 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     max-width: 1920px;
+
 }
 
 /* Sheared styles */
@@ -205,6 +206,40 @@
     padding-top: 20px;
 }
 
+/* play instantly styles*/
+.play-inst {
+    display: flex;
+    margin: auto 240px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.play-instant-text {
+    padding-left: 200px;
+}
+
+.play-instant-text p {
+    margin-top: 24px;
+}
+
+.play-inst-img img {
+    width: 634.833px;
+    height: 650px;
+
+}
+
+.small-img {
+    position: relative;
+    top: -280px;
+    right: 290px;
+}
+
+.small-img img {
+    width: 318.5px;
+    height: 365.083px;
+}
+
 /* flexible for mobile device */
 @media screen and (max-width: 576px) {
     .header {
@@ -213,7 +248,8 @@
 
     .navigation,
     .nav-bar ul,
-    .games-card {
+    .games-card,
+    .play-inst {
         flex-direction: column;
     }
 
@@ -239,8 +275,26 @@
         margin-top: 300px;
         max-width: 100%;
         padding-right: 0px;
+    }
 
+    .play-inst-img>img {
+        width: 100%;
+        height: auto;
+    }
 
+    .play-inst-img {
+        padding: 20px;
+    }
+
+    .play-inst-img .small-img {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .play-instant-text {
+        padding-right: 20px;
     }
 
     .nav-item li {
@@ -262,6 +316,14 @@
     .online-games {
         margin: 20px;
     }
+
+    .play-instant-text {
+        padding: 10px;
+    }
+
+    .play-inst-img {}
+
+
 }
 
 /* flexible for tablet device */
@@ -271,7 +333,8 @@
     }
 
     .navigation,
-    .games-card {
+    .games-card,
+    .play-inst {
         flex-direction: column;
     }
 
@@ -298,6 +361,23 @@
         padding: 0px;
 
     }
+
+    .play-inst-img>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .play-inst-img {
+        padding: 20px;
+    }
+
+    .play-inst-img .small-img {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
 
     .nav-item li {
         padding-bottom: 20px;
