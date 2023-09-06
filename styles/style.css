@@ -517,6 +517,7 @@
 
     .footer {
         margin: 0;
+        height: 400px;
     }
 
     .footer-title {
@@ -532,7 +533,21 @@
         gap: 20px;
     }
 
-    .social-nav {}
+    .footer-nav-bar {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .social-nav {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
 
 
 }
