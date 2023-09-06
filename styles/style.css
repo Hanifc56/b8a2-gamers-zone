@@ -216,7 +216,8 @@
 }
 
 .play-instant-text {
-    padding-left: 200px;
+    margin: o auto;
+    text-align: start;
 }
 
 .play-instant-text p {
@@ -238,6 +239,13 @@
 .small-img img {
     width: 318.5px;
     height: 365.083px;
+}
+
+/* play games section styles*/
+.small2 {
+    position: relative;
+    bottom: -280px;
+    right: -290px;
 }
 
 /* flexible for mobile device */
@@ -277,6 +285,10 @@
         padding-right: 0px;
     }
 
+    .play-inst {
+        margin: auto 0;
+    }
+
     .play-inst-img>img {
         width: 100%;
         height: auto;
@@ -295,6 +307,8 @@
 
     .play-instant-text {
         padding-right: 20px;
+        text-align: center;
+
     }
 
     .nav-item li {
@@ -360,6 +374,10 @@
     .img-section {
         padding: 0px;
 
+    }
+
+    .play-inst {
+        margin: auto 0;
     }
 
     .play-inst-img>img {
